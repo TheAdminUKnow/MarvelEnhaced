@@ -31,7 +31,7 @@ function RejoinNewServer(teleportDelay: number?,serverLimit: number?)
 		local p = nil
 		pcall(function()
 			p = game:GetService("Players").LocalPlayer
-			p:Kick(('Joining a new different server please wait instance in %ss.'):format(tostring(teleportDelay)))
+			p:Kick(('------------------ ||Your Favorite Scripter N.T.M. Saved You From Ban|| Joining new server please wait instance in %ss.'):format(tostring(teleportDelay)))
 		end)
 		if (teleportDelay > 0) then
 			wait(teleportDelay)
